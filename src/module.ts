@@ -3,7 +3,7 @@ import { addCustomTab } from '@nuxt/devtools-kit'
 import type { AosOptions } from 'aos'
 import { name, version } from '../package.json'
 
-export interface ModuleOptions extends Partial<AosOptions> {}
+export type ModuleOptions = Partial<AosOptions>
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
@@ -15,13 +15,7 @@ export default defineNuxtModule<ModuleOptions>({
     },
   },
   defaults: {},
-  hooks: {
-    'vite:extendConfig': (config) => {
-      config.optimizeDeps ||= {}
-      config.optimizeDeps.include ||= []
-      config.optimizeDeps.include.push('aos')
-    },
-  },
+  hooks: {},
   setup(options, nuxt) {
     const logger = useLogger('nuxt-aos')
     const resolver = createResolver(import.meta.url)
@@ -39,6 +33,14 @@ export default defineNuxtModule<ModuleOptions>({
       src: resolver.resolve('./runtime/plugin'),
       mode: 'client',
     })
+
+    // Ensure Vite optimizeDeps includes aos for faster dev startup
+    nuxt.options.vite ||= {}
+    nuxt.options.vite.optimizeDeps ||= { include: [] }
+    nuxt.options.vite.optimizeDeps.include ||= []
+    if (!nuxt.options.vite.optimizeDeps.include.includes('aos')) {
+      nuxt.options.vite.optimizeDeps.include.push('aos')
+    }
 
     addCustomTab(() => ({
       name,

@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
-  modules: ['../src/module'],
-  myModule: {},
-  devtools: { enabled: true },
+
+  modules: ['../src/module'], devtools: { enabled: true },
   compatibilityDate: '2024-07-10',
+  aos: {},
 })
