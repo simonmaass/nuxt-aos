@@ -1,6 +1,57 @@
 # Changelog
 
 
+## v1.3.0
+
+
+### 🚀 Enhancements
+
+- **module:** Pass options to init method of aos ([c3290d7](https://github.com/simonmaass/nuxt-aos/commit/c3290d7))
+
+### 📖 Documentation
+
+- Add link to aos animation list ([fd58dbf](https://github.com/simonmaass/nuxt-aos/commit/fd58dbf))
+- Add desc for AOS API #23 ([#23](https://github.com/simonmaass/nuxt-aos/issues/23))
+- Use new `nuxi module add` command in installation ([d5f4e82](https://github.com/simonmaass/nuxt-aos/commit/d5f4e82))
+- Update readme ([f5c8e14](https://github.com/simonmaass/nuxt-aos/commit/f5c8e14))
+
+### 🏡 Chore
+
+- **release:** V1.0.1 ([6f9fb0e](https://github.com/simonmaass/nuxt-aos/commit/6f9fb0e))
+- **release:** V1.0.1 ([76c9e96](https://github.com/simonmaass/nuxt-aos/commit/76c9e96))
+- **release:** V1.0.2 ([312d961](https://github.com/simonmaass/nuxt-aos/commit/312d961))
+- **release:** V1.0.3 ([03a5646](https://github.com/simonmaass/nuxt-aos/commit/03a5646))
+- **release:** V1.0.4 ([b8cdc18](https://github.com/simonmaass/nuxt-aos/commit/b8cdc18))
+- **module:** Use correct method of passing options to plugin ([224e46c](https://github.com/simonmaass/nuxt-aos/commit/224e46c))
+- **release:** V1.1.0 ([61d7571](https://github.com/simonmaass/nuxt-aos/commit/61d7571))
+- **release:** V1.1.1 ([67957bc](https://github.com/simonmaass/nuxt-aos/commit/67957bc))
+- **release:** V1.1.2 ([fa50923](https://github.com/simonmaass/nuxt-aos/commit/fa50923))
+- **release:** V1.1.3 ([976453b](https://github.com/simonmaass/nuxt-aos/commit/976453b))
+- **release:** V1.1.5 ([0c1bf0b](https://github.com/simonmaass/nuxt-aos/commit/0c1bf0b))
+- **release:** V1.1.6 ([756c7e6](https://github.com/simonmaass/nuxt-aos/commit/756c7e6))
+- **release:** V1.1.7 ([b132b47](https://github.com/simonmaass/nuxt-aos/commit/b132b47))
+- **release:** V1.2.1 ([0c9450d](https://github.com/simonmaass/nuxt-aos/commit/0c9450d))
+- Update deps ([1abb90f](https://github.com/simonmaass/nuxt-aos/commit/1abb90f))
+- Transpile aos deps & include it in vite optimize array ([254db5b](https://github.com/simonmaass/nuxt-aos/commit/254db5b))
+- Provide aos methods from plugin ([fde232d](https://github.com/simonmaass/nuxt-aos/commit/fde232d))
+- **release:** V1.2.2 ([fb81588](https://github.com/simonmaass/nuxt-aos/commit/fb81588))
+- **release:** V1.2.3 ([0b309c5](https://github.com/simonmaass/nuxt-aos/commit/0b309c5))
+- **release:** V1.2.4 ([0652f94](https://github.com/simonmaass/nuxt-aos/commit/0652f94))
+- Remove dupe ([a2d3691](https://github.com/simonmaass/nuxt-aos/commit/a2d3691))
+- Indicate compatibility with new v4 major` ([ffcb351](https://github.com/simonmaass/nuxt-aos/commit/ffcb351))
+- **release:** V1.2.5 ([ba13882](https://github.com/simonmaass/nuxt-aos/commit/ba13882))
+
+### 🎨 Styles
+
+- **plugin:** Remove unused var ([7f2fae8](https://github.com/simonmaass/nuxt-aos/commit/7f2fae8))
+
+### ❤️ Contributors
+
+- Egidius Mengelberg <mengelberg@mengelberg.eu>
+- Daniel Roe ([@danielroe](https://github.com/danielroe))
+- JokerWon <1595672103@qq.com>
+- BayBreezy <behon.baker@yahoo.com>
+
 ## v1.2.5
 
 [compare changes](https://github.com/egidiusmengelberg/nuxt-aos/compare/v1.2.4...v1.2.5)
